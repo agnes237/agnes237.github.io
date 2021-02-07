@@ -1,0 +1,104 @@
+# default config
+languageCode = "en-us"
+title = "Agnes Huang"
+theme = "parsa"
+summaryLength = "10"
+paginate = 6
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/headroom/headroom.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+link = "plugins/smooth-scroll/smooth-scroll.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 1
+
+[[menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 2
+
+# deult parameter
+[params]
+#logo = "images/logo.png"
+home = "Home"
+# theme layout ( two layout is available, "1" and "2" )
+layout = "1"
+# Meta data
+description = "I’m a Product Manager based in London."
+# Preloader
+preloader = true
+# search
+search = false
+# about author
+author = "Agnes Huang"
+author_image = "images/banner-img.png"
+bio = "I’m a Product Manager based in London."
+# Contact info
+email = "exmaple@ymail.com"
+# Contact Form Action
+contact_form_action = "#"
+# Google Analitycs
+google_analitycs_id = "Your ID"
+# copyright
+copyright = "Copyright &copy; 2020 a theme by [themefisher.com](https://themefisher.com)"
+
+# Instagram feed
+[params.instafeed]
+enable = true
+access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+url = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+url = "#"
+
+[[params.social]]
+icon = "ti-linkedin"
+url = "#"
+
+[[params.social]]
+icon = "ti-github"
+url = "https://github.com/agnes237"
