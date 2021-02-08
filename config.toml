@@ -1,4 +1,5 @@
 # default config
+baseurl = "https://agnes237.github.io/"
 languageCode = "en-us"
 title = "Agnes Huang"
 theme = "parsa"
